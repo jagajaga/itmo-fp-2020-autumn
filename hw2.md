@@ -20,6 +20,8 @@
 
 00:00 UTC 16 Ноября 2020.
 
+Сдавать в Github classrooms по [ссылке](https://classroom.github.com/a/_IUUxwd3).
+
 # Задания
 
 ## Блок 1: `Functor` и его друзья
