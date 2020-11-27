@@ -107,22 +107,6 @@ a
 b
 c
 d
-/users/my_user/folder-that-exist > cvs-init
-/users/my_user/folder-that-exist > cvs-add a
-/users/my_user/folder-that-exist > write-file a "a1a1a1"
-/users/my_user/folder-that-exist > cvs-update a "new change!"
-/users/my_user/folder-that-exist > cvs-history a
-0. initial
-1. new change!
-/users/my_user/folder-that-exist > cvs-cat a "1"
-a1a1a1
-/users/my_user/folder-that-exist > cvs-cat a "0"
-aaaaaa
-/users/my_user/folder-that-exist > cvs-merge-revs a "0" "1" "both"
-/users/my_user/folder-that-exist > cat a
-aaaaaa
->>>>
-a1a1a1
 /users/my_user/folder-that-exist > exit
 ```
 
