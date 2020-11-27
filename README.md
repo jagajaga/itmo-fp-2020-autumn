@@ -3,7 +3,7 @@
 ## Полезные ссылки
 
 * [Страница с материалами курса](https://github.com/jagajaga/FP-Course-ITMO).
-* [Табличка с баллами]() скоро появится.
+* [Табличка с баллами](https://docs.google.com/spreadsheets/d/1JywzmeE8XpcS4EoL0kuyiG2AKPWs-uEqcIhL0H-E8A4/edit#gid=0).
 * [Style-guide](code-style.md).
 * [Рекомендуемая конфигурация stylish-haskell](.stylish-haskell.yaml).
 * [Рекомендации по настройке рабочего окружения](environment-setup.md).
@@ -12,6 +12,7 @@
 
 * [ДЗ1](./hw1.md)
 * [ДЗ2](./hw2.md)
+* [ДЗ3](./hw3.md)
 
 ## Как происходит обучение
 В течение семестра раз в неделю Вам будут читаться лекции о языке Haskell. Посещение лекций не влияет на возможность получения зачета.
