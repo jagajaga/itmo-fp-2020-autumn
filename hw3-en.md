@@ -59,38 +59,40 @@ The necessary functionality:
 Example:
 ```
 $ my-best-file-manager ~/
-/users/my\_user/ \&gt; help
-cd \&lt;folder\&gt; -- go to directory
+/users/my_user/ > help
+cd <folder> -- go to directory
 dir -- show the contents of the current directory
-ls \&lt;folder\&gt; -- show the contents of the selected directory
-create-folder &quot;folder-name&quot; -- create a directory in the current folder
-cat \&lt;file\&gt; -- show file contents
-create-file &quot;file-name&quot; -- create an empty file in the current directory
-remove \&lt;folder | file\&gt; -- delete the selected directory or file
-write-file \&lt;file\&gt; &quot;text&quot; -- write text to a file
-find-file &quot;file-name&quot; -- search for a file in the current directory and subdirectories
-information \&lt;file\&gt; -- show information about the file
-information \&lt;folder\&gt; -- show directory information
+ls <folder> -- show the contents of the selected directory
+create-folder "folder-name" -- create a directory in the current folder
+cat <file> -- show file contents
+create-file "file-name" -- create an empty file in the current directory
+remove <folder | file> -- delete the selected directory or file
+write-file <file> "text" -- write text to a file
+find-file "file-name" -- search for a file in the current directory and subdirectories
+information <file> -- show information about the file
+information <folder> -- show directory information
 help -- show usage guide
 exit -- program shutdown
-/users/my\_user/ \&gt; cd folder-that-exist
-/users/my\_user/folder-that-exist \&gt; dir
+
+
+/users/my_user/ > cd folder-that-exist
+/users/my_user/folder-that-exist > dir
 a
 b
 c
-/users/my\_user/folder-that-exist \&gt; ls a
+/users/my_user/folder-that-exist > ls a
 a is not a folder
-/users/my\_user/folder-that-exist \&gt; cat a
+/users/my_user/folder-that-exist > cat a
 aaaaaa
-/users/my\_user/folder-that-exist \&gt; cd no-folder
+/users/my_user/folder-that-exist > cd no-folder
 no-folder does not exist
-/users/my\_user/folder-that-exist \&gt; create-file d
-/users/my\_user/folder-that-exist \&gt; dir
+/users/my_user/folder-that-exist > create-file d
+/users/my_user/folder-that-exist > dir
 a
 b
 c
 d
-/users/my\_user/folder-that-exist \&gt; exit
+/users/my_user/folder-that-exist > exit
 ```
 
 **Bonuses**
